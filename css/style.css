@@ -8,26 +8,26 @@
 -------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------
-body 
+body
  + WRAP
  + HEADER
  + NAVIGATION
  + BANNER
  + SERVICES
  + OUR FEATURED FOUNDERS
- + BLOG UPDATES 
+ + BLOG UPDATES
  + APPOINMENT
  + NEWS FROM BLOG
  + PARTNERS / CLIENTS
  + FOOTER
  + SOCIAL ICONS
  + MEGA MENU
- + 3 MENU LEVEL 
+ + 3 MENU LEVEL
 -------------------------------------------------------------------*/
 /*=======================================================
       IMPORT FILE
 ========================================================*/
-@import url("../fonts/montserrat-fonts.css");
+@import url("../fonts/Gilroy-fonts.css");
 @import url("animate.css");
 /*=======================================================
       THEME STYLING START
@@ -41,7 +41,7 @@ body {
 	font-weight: normal;
 	position: relative;
 	font-size: 14px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 }
 /*=======================================================
       WRAPPER
@@ -56,31 +56,48 @@ body {
 ========================================================*/
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
-	color: #333333;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
+	color: #666666;
+	letter-spacing: 0px;
+	font-family: 'Gilroy', sans-serif;
+	font-weight: black;
 }
 h1 {
-	font-size: 48px;
+	font-size: 45px;
+	letter-spacing: 2px;
+	font-family: 'Gilroy-black', sans-serif;
+	font-weight: ExtraBold;
+	color: #666666;
 }
 h2 {
 	font-size: 40px;
 	font-weight: bold;
 }
 h3 {
-	font-size: 36px;
+	font-size: 35px;
+	color: #555861;
+	letter-spacing: 2px;
+	font-family: 'Gilroy', sans-serif;
+	font-weight: black;
 }
 h4 {
 	font-size: 30px;
 }
 h5 {
-	font-size: 26px;
+	font-size: 20px;
+	letter-spacing: 0px;
+	font-family: 'Gilroy-Regular', sans-serif;
+	font-weight: heavy;
+	color: #666666;
 }
 h6 {
-	font-size: 16px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-family: 'Gilroy-Regular', sans-serif;
+	font-weight: heavy;
+	color: #666666;
 }
 p {
-	font-family: inherit;
+	font-family: 'Gilroy-Regular', sans-serif;
 	color: #666666;
 	font-size: 16px;
 	line-height: 30px;
@@ -93,7 +110,7 @@ a {
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 	text-decoration: none !important;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'gilroy', sans-serif;
 }
 img {
 	-webkit-transition: 0.4s ease-in-out;
@@ -112,27 +129,25 @@ li {
 a {
 	text-decoration: none;
 	color: #141414;
+
 }
-.font-playfair {
-	font-family: 'Playfair Display', serif;
+.font-Gilroy {
+	font-family: 'Gilroy', sans-serif;
 }
-.font-montserrat {
-	font-family: 'Montserrat', sans-serif;
-}
-.font-montserrat {
-	font-family: 'Montserrat', sans-serif;
+.font-Gilroy {
+	font-family: 'Gilroy', sans-serif;
 }
 .font-hair-line {
-	font-family: 'montserrathairline';
+	font-family: 'Gilroyhairline';
 }
 .font-light {
-	font-family: 'montserratlight';
+	font-family: 'Gilroylight';
 }
 .font-regular {
-	font-family: 'montserratregular';
+	font-family: 'Gilroyregular';
 }
 .font-extra-bold {
-	font-family: 'montserratbold';
+	font-family: 'Gilroybold';
 }
 .text-transform-none {
 	text-transform: none !important;
@@ -227,6 +242,7 @@ section {
       BUTTON
 ========================================================*/
 .btn {
+	color: '#489FDF';
 	background: none;
 	display: inline-block;
 	font-size: 16px;
@@ -246,7 +262,7 @@ section {
 	transition: all 0.4s ease-in-out;
 }
 .btn:hover {
-	color: #131313;
+	color: #489FDF;
 	background: #fff;
 }
 .btn-dark {
@@ -266,7 +282,7 @@ section {
 	width: 100%;
 }
 .heading-block h6 {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Gilroy-bold', san-serif;
 	text-transform: uppercase;
 	font-weight: 500;
 	margin: 0px;
@@ -286,10 +302,10 @@ section {
 	line-height: 46px;
 	margin: 0px;
 	letter-spacing: 2px;
-	font-family: 'montserratlight';
+	font-family: 'gilroy-black';
 }
 .heading-block h3 span {
-	font-family: 'montserratregular';
+	font-family: 'gilroy';
 }
 .heading-block.center hr {
 	margin: 0 auto;
@@ -564,9 +580,10 @@ header.dark nav li a:after {
 	text-align: center;
 }
 .home-agency h1 {
-	font-size: 110px;
-	color: #fff;
-	letter-spacing: -5px;
+	font-size: 50px;
+	line-height: 40px;
+	color: #ffffff;
+	letter-spacing: 1px;
 }
 .home-agency h3 {
 	font-size: 36px;
@@ -582,6 +599,7 @@ header.dark nav li a:after {
 	background: url(../images/bg/bg-agency.jpg) center center no-repeat;
 	background-size: cover;
 }
+
 .home-agency .ag-text {
 	margin-top: 100px;
 }
@@ -702,7 +720,7 @@ header.dark nav li a:after {
 	width: 100%;
 	height: 100%;
 	top: 0px;
-	background: #91a8ae;
+	background: #489FDF;
 }
 .portfolio-in .container {
 	position: relative;
@@ -924,7 +942,7 @@ a.big-border:hover {
 	text-transform: uppercase;
 	font-size: 10px;
 	letter-spacing: 1px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	padding: 5px 30px;
 	border-right: 1px solid #999999 !important;
 }
@@ -992,7 +1010,7 @@ a.big-border:hover {
 	font-size: 10px;
 	color: #fff;
 	letter-spacing: 1px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	padding: 5px 30px;
 	border-right: 1px solid rgba(255,255,255,0.3) !important;
 }
@@ -1018,7 +1036,7 @@ a.big-border:hover {
 	font-size: 13px;
 	color: #666666;
 	letter-spacing: 1px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	padding: 5px 30px;
 }
 .filter-style-3 .cbp-filter-item:hover:before {
@@ -1063,7 +1081,7 @@ a.big-border:hover {
 	font-size: 10px;
 	color: #999999;
 	letter-spacing: 1px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	position: relative;
 	padding: 35px 20px;
 	padding-bottom: 10px;
@@ -1111,7 +1129,7 @@ a.big-border:hover {
 	color: #999999;
 	letter-spacing: 1px;
 	padding: 0px 30px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	position: relative;
 }
 .filter-style-5 .cbp-filter-item:hover {
@@ -1176,7 +1194,7 @@ a.big-border:hover {
 	right: 0px;
 	top: 60px;
 	color: #333333;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	opacity: 0.3;
 }
 /*=======================================================
@@ -1767,7 +1785,7 @@ a.big-border:hover {
 	color: #fff;
 }
 .coming-soon .countdown.style-3 span {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Gilroyhairline', serif;
 	font-size: 138px;
 }
 .coming-soon .countdown.style-3 p {
@@ -2413,7 +2431,7 @@ a.big-border:hover {
 	padding:0 50px;
 }
 .header-menu .sticky{
-	
+
 }
 .fat-nav, .hamburger__icon, .hamburger__icon:after, .hamburger__icon:before {
 	-moz-transition-duration: .4s;
