@@ -70,8 +70,12 @@ h1 {
 	color: #666666;
 }
 h2 {
-	font-size: 40px;
-	font-weight: bold;
+	font-size: 45px;
+	letter-spacing: 2px;
+	font-family: 'Gilroy-ExtraBold';
+	font-weight: normal;
+	font-style: normal;
+	color: #666666;
 }
 h3 {
 	font-size: 35px;
