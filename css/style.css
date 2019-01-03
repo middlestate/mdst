@@ -64,8 +64,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size: 45px;
 	letter-spacing: 2px;
-	font-family: 'Gilroy-black', sans-serif;
-	font-weight: ExtraBold;
+	font-family: Gilroy-ExtraBold;
+	font-weight: normal;
+	font-style: normal;
 	color: #666666;
 }
 h2 {
