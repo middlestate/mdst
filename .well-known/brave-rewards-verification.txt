@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: middlestate.com
+Token: 7de0c639712a26c2c2c3dc08b8d7bba5b50120b3d3aa76fb49660f7b676dd279
